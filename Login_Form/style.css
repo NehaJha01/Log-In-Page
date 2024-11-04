@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* rgb(73, 52, 35) */
+.loginform{
+    background-color:palevioletred;
+    border-radius: 8px;
+    padding: 30px;
+    
+    width: 300px;
+}
+a:hover{
+    color: green;
+}
+h2{
+    
+    color: rgb(81, 8, 45);
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #372929;
+    border: 1px solid white;
+}
+input, select, textarea{
+    color: #fff;
+}
+#Remind{
+    margin-top: 15px;
+}
+button{
+    background-color:#890555;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(28 147 28);
+}

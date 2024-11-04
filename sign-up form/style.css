@@ -1,0 +1,44 @@
+body{
+    /*background-color: #34688a;*/
+    background-color: pink;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sign-up{
+   background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px;
+}
+h2{
+text-align: center;
+color: grey;
+}
+input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(243, 148, 164);
+    
+}
+
+button{
+    background-color: #f78da7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 114px;
+  padding: 10px;
+  
+}
+button:hover{
+    background-color: rgb(28 147 28);
+}
+a:hover{
+    color: green;
+}
